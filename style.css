@@ -1,0 +1,64 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #e81c56;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.content h2 {
+    font-size: 2em;
+    color: #e81c56;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 1em;
+}
